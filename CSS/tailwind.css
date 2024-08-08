@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+h3{
+    letter-spacing: -22px;
+}
+
+.btn{
+    /* @apply  bg-green-300 p-5 m-10 text-black-200 font-bold rounded-full hover:bg-green-500 focus:bg-green-900 focus:ring-4 */
+    
+    @apply bg-orange-300 p-5 m-10 text-black font-bold rounded-full hover:bg-green-500  focus:bg-green-900 focus:ring-4
+}
